@@ -13,4 +13,60 @@
     --contact-bg:#FFD77C;
     --footer-bg:#C9ECB5;
     --font-type: "Poppins";
+    --banner-bg:#E5E5E5;
 }
+
+.main-header {
+    padding: 60px 120px 0px 120px;
+    background-color: var(--banner-bg);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-1 ul li {
+    display: inline-flex;
+}
+
+.links-1 ul li a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 30px;
+    color: inherit;
+    font-family: var(--font-type);
+}
+
+
+
+
+/* 
+.circle-container {
+    position: relative;
+    width: 30em;
+    height: 30em;
+    padding: 3em;
+    border-left: dashed 4px;
+    border-top: dashed 4px;
+    border-bottom: none;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+.circle-container a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 6em; height: 6em;
+    margin: -6em;
+}
+.circle-container img { display: block; width: 100%; }
+.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+
+/* .deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); } */
+
+
