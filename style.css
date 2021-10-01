@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +39,7 @@
     padding: 0px 30px;
     color: inherit;
     font-family: var(--font-type);
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 .logo {
@@ -111,3 +113,70 @@
 .deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
 
 
+
+.tog {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+
+}
+.tog img {
+    width: 50%;
+    height: auto;
+}
+
+#eat-tog {
+    text-align: center;
+    margin-top: 60px;
+    color: var(--light-orange);
+    font-size: 2rem;
+    padding: 10px 0px 25px 0px;
+    letter-spacing: .2rem;
+}
+
+#tog-data {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.explore-menu {
+    padding: 40px 120px;
+}
+.menu {
+    /* text-align: center; */
+    background-color: var(--footer-bg);
+}
+.explore-title {
+    text-align: center;
+    padding: 20px 0px;
+    font-family: var(--font-type);
+}
+
+#menu {
+    color: var(--eclipe-color);
+}
+
+.menu-item-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.item-1 {
+    padding: 40px 10px 10px 10px;
+    background-color: #fff;
+    border-bottom-right-radius: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.item {
+    display: inline-flex;
+    padding: 20px 0px;
+}
+
+.item img {
+    width: 60%;
+    margin-top: -20px;
+    margin-left: -60px;
+}
