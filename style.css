@@ -145,7 +145,7 @@
 }
 .menu {
     /* text-align: center; */
-    background-color: var(--footer-bg);
+    background-color: var(--contact-bg);
 }
 .explore-title {
     text-align: center;
@@ -165,7 +165,7 @@
 .item-1 {
     padding: 40px 10px 10px 10px;
     background-color: #fff;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 40px;
     width: 250px;
     height: 150px;
 }
@@ -175,8 +175,34 @@
     padding: 20px 0px;
 }
 
+.burger-name {
+    font-size: 3rem;
+    font-size: var(--font-type);
+}
 .item img {
     width: 60%;
     margin-top: -20px;
-    margin-left: -60px;
+    margin-left: -80px;
+}
+
+/* hot deals  */
+.hot-deals {
+    padding-top: 60px;
+    background-color: var(--hot-deals-bg);
+}
+
+.hot-deals h4 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+.deals {
+    display: flex;
+}
+#deals {
+    color: var(--light-orange);
+}
+
+.deals img {
+    margin-top: -205px;
 }
