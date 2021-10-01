@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --btn-color:#6CB840;
+    --eclipe-color:#649549;
+    --light-orange:#EAAB1B;
+    --light-green:#6CB840;
+    --hot-deals-bg:#C9ECB5;
+    --contact-bg:#FFD77C;
+    --footer-bg:#C9ECB5;
+    --font-type: "Poppins";
+}
