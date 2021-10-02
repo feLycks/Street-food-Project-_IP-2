@@ -11,12 +11,14 @@
     --eclipe-color:#649549;
     --light-orange:#EAAB1B;
     --light-green:#6CB840;
-    --contact-bg:#FFD77C;
+    /* --contact-bg:#FFD77C; */
     --footer-bg:#F1FAEC;
     --font-type: "Poppins";
     --banner-bg:#E5E5E5;
     --explore-menu:#EAF3E4;
-    --hot-details:#C9ECB5;
+    --hot-deals:#C9ECB5;
+    --hot-deals-text:#6CB840;
+    --contact-bg:#FFF5DD;
 }
 
 body {
@@ -120,7 +122,7 @@ body {
 .tog {
     display: flex;
     justify-content: space-between;
-    padding: 40px 120px;
+    padding: 40px 120px 0px 120px;
 
 }
 .tog img {
@@ -144,7 +146,7 @@ body {
 }
 
 .explore-menu {
-    padding: 40px 120px;
+    padding: 40px 120px 0px 120px;
 }
 .menu {
     background-color: var(--explore-menu);
@@ -161,14 +163,14 @@ body {
 .menu-item-1{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 40px 0px 60px 0px ;
 }
 .item-1 {
     padding: 40px 10px 10px 10px;
     background-color: #fff;
     border-bottom-right-radius: 40px;
     width: 250px;
-    height: 150px;
+    height: 180px;
 }
 
 .item {
@@ -182,36 +184,38 @@ body {
 }
 .item img {
     width: 60%;
-    margin-top: -20px;
     margin-left: -80px;
 }
 
-/* hot deals  */
+/* HOT DEALS */
 .hot-deals {
     padding-top: 60px;
-    background-color: var(--hot-details);
+    background-color: var(--hot-deals);
 }
 
 .hot-deals h4 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 2rem;
     padding-bottom: 40px;
 }
 .deals {
     display: flex;
+    justify-content: space-evenly;
 }
 #deals {
     color: var(--light-orange);
 }
 
 .deals img {
-    margin-top: -205px;
+    margin-top: -215px;
+    padding-right: 60px;
+    padding-right: 60px;
 }
 
 /* CONTACT SECTION*/
 
 .contact-us {
-    padding: 20px 120px 60px 120px;
+    padding: 0px 120px 60px 120px;
 }
 
 .contact-content {
@@ -220,10 +224,13 @@ body {
 }
 
 .contact-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 30px 0px;
 }
 
+#us {
+    color: var(--light-green);
+}
 .contact-content p{
     font-size: 20px;
     font-weight: 300;
