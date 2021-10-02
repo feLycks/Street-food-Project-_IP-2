@@ -13,7 +13,7 @@
     --light-green:#6CB840;
     /* --hot-deals-bg:#C9ECB5; */
     --contact-bg:#FFD77C;
-    --footer-bg:#C9ECB5;
+    --footer-bg:#F1FAEC;
     --font-type: "Poppins";
     --banner-bg:#E5E5E5;
     --explore-menu:#EAF3E4;
@@ -221,17 +221,69 @@
     /* align-items: center; */
 }
 
-/* footer  */
+
+/* FOOTER CONTENT*/
+
+
 footer {
-    padding: 20px 120px 60px 120px;
+    padding: 80px 120px 80px 120px;
 }
 
 .footer-info {
-    /* display: flex; */
+    padding: 80px 10px 80px 20px ;
+    display: flex;
+    justify-content: space-between;
     background-color: var(--footer-bg);
 }
 
-.details {
-    display: flex;
-    flex-direction: row;
+.wk-hrs {
+    display: inline-flex;
+}
+
+.times{
+    padding-right: 40px;
+    margin-right: 60px;
+    border-right: 2px dotted var(--light-green);
+}
+
+.social{
+    display: inline-flex;
+}
+
+
+.follow {
+    display:block;
+}
+
+.follow p {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: .85rem;
+    line-height: 1.5rem;
+}
+
+.follow h2 {
+    text-transform: uppercase;
+    font-family: var(--font-type);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.socio-icon a img {
+    float: left;
+    width: 2rem;
+    cursor: pointer; 
+    margin-right:-10px;
+    margin-bottom: 60px;
+}
+
+.btn-send {
+    background-color: var(--btn-color);
+    color: white;
+    border:none;
+    padding: 10px 24px;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+    margin-left: -15px;
 }
