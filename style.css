@@ -194,22 +194,49 @@ body {
 }
 
 .hot-deals h4 {
-    /* text-align: center; */
     font-size: 2rem;
     padding-bottom: 40px;
 }
 .deals {
     display: flex;
-    justify-content: space-evenly;
 }
+#deals-title {
+    text-align: center;
+}
+
 #deals {
-    color: var(--light-orange);
+    color: var(--hot-deals-text);
+}
+
+.special h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--hot-deals-text);
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+.special h4 {
+    line-height: 1rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.special p {
+    width: 350px;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .deals img {
     margin-top: -215px;
-    padding-right: 60px;
-    padding-right: 60px;
+}
+
+
+#deal-item2 {
+    width: 75%;
+    margin-left: -5px;
+    margin-top:-350px;
 }
 
 /* CONTACT SECTION*/
