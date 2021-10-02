@@ -220,3 +220,18 @@
     text-align: center;
     /* align-items: center; */
 }
+
+/* footer  */
+footer {
+    padding: 20px 120px 60px 120px;
+}
+
+.footer-info {
+    /* display: flex; */
+    background-color: var(--footer-bg);
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
