@@ -19,6 +19,7 @@
     --hot-deals:#C9ECB5;
     --hot-deals-text:#6CB840;
     --contact-bg:#FFF5DD;
+    --eat-tog:#FFE2A0;
 }
 
 body {
@@ -119,6 +120,8 @@ body {
 .deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
 
 
+/* EAT TOGETHER  */
+
 .tog {
     display: flex;
     justify-content: space-between;
@@ -132,18 +135,21 @@ body {
 
 #eat-tog {
     text-align: center;
-    margin-top: 60px;
-    color: var(--light-orange);
-    font-size: 2rem;
+    margin-top: 80px;
+    color: var(--eat-tog);
+    font-size: 2.5rem;
     padding: 10px 0px 25px 0px;
     letter-spacing: .2rem;
 }
 
 #tog-data {
+    width: 450px;
     font-size: 1.3rem;
     text-align: center;
     line-height: 2rem;
 }
+
+/* EXPLORE MENU  */
 
 .explore-menu {
     padding: 40px 120px 0px 120px;
@@ -169,8 +175,13 @@ body {
     padding: 40px 10px 10px 10px;
     background-color: #fff;
     border-bottom-right-radius: 40px;
-    width: 250px;
-    height: 180px;
+    width: 300px;
+    height: 200px;
+}
+
+.item-1 h4 {
+    font-size: 1.2rem;
+    /* margin-top: -15px; */
 }
 
 .item {
@@ -178,12 +189,14 @@ body {
     padding: 20px 0px;
 }
 
-.burger-name {
-    font-size: 3rem;
-    font-size: var(--font-type);
+.item p {
+    font-size: 1rem;
+    text-align: center;
 }
+
 .item img {
     width: 60%;
+    height: 60%;
     margin-left: -80px;
 }
 
