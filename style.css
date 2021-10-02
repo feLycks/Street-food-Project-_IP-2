@@ -9,22 +9,22 @@
 :root{
     --btn-color:#6CB840;
     --eclipe-color:#649549;
-    --light-orange:#EAAB1B;
     --light-green:#6CB840;
-    /* --contact-bg:#FFD77C; */
     --footer-bg:#F1FAEC;
-    --font-type: "Poppins";
     --banner-bg:#E5E5E5;
     --explore-menu:#EAF3E4;
     --hot-deals:#C9ECB5;
     --hot-deals-text:#6CB840;
     --contact-bg:#FFF5DD;
     --eat-tog:#FFE2A0;
+    --main-title-span :#E9BC59;
 }
 
 body {
     font-family: "Poppins";
 }
+
+
 .main-header {
     padding: 60px 120px 0px 120px;
     background-color: var(--banner-bg);
@@ -63,8 +63,12 @@ body {
 }
 
 .descr {
-    width: 300px;
+    width: 400px;
     height: auto;
+}
+
+#content {
+    font-size: 1.1rem;
 }
 
 .title {
@@ -75,7 +79,7 @@ body {
 
 #sub-title {
     font-size: 1.8rem;
-    font-weight: lighter;
+    font-weight: 450;
     margin-bottom: 10px;
 }
 
@@ -83,11 +87,15 @@ body {
     background-color: var(--btn-color);
     color: #fff;
     border: none;
-    padding: 10px 25px;
-    border-radius: 20px;
+    padding: 15px 30px;
+    border-radius: 40px;
     margin-top: 30px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+#food-title {
+    color: var(--main-title-span);
 }
 
 .circle-container {
