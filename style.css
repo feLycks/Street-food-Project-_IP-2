@@ -114,7 +114,6 @@
 .deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
 
 
-
 .tog {
     display: flex;
     justify-content: space-between;
@@ -237,13 +236,31 @@ footer {
 
 .wk-hrs {
     display: inline-flex;
+    line-height: 2rem;
+}
+
+.wk-hrs p, h4{
+    font-family: var(--font-type);
+}
+
+.wk-hrs h4 {
+    letter-spacing: .2rem;
 }
 
 .times{
     padding-right: 40px;
     margin-right: 60px;
-    border-right: 2px dotted var(--light-green);
+    border-right: 3px dotted var(--light-green);
 }
+
+#phone {
+    font-weight: 600;
+}
+small {
+    font-size: 1em;
+    font-weight: lighter !important;
+}
+
 
 .social{
     display: inline-flex;
