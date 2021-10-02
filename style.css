@@ -11,11 +11,13 @@
     --eclipe-color:#649549;
     --light-orange:#EAAB1B;
     --light-green:#6CB840;
-    --hot-deals-bg:#C9ECB5;
+    /* --hot-deals-bg:#C9ECB5; */
     --contact-bg:#FFD77C;
     --footer-bg:#C9ECB5;
     --font-type: "Poppins";
     --banner-bg:#E5E5E5;
+    --explore-menu:#EAF3E4;
+    --hot-details:#C9ECB5;
 }
 
 .main-header {
@@ -145,7 +147,7 @@
 }
 .menu {
     /* text-align: center; */
-    background-color: var(--contact-bg);
+    background-color: var(--explore-menu);
 }
 .explore-title {
     text-align: center;
@@ -188,7 +190,7 @@
 /* hot deals  */
 .hot-deals {
     padding-top: 60px;
-    background-color: var(--hot-deals-bg);
+    background-color: var(--hot-details);
 }
 
 .hot-deals h4 {
@@ -205,4 +207,16 @@
 
 .deals img {
     margin-top: -205px;
+}
+
+/* contact us  */
+
+.contact-us {
+    padding: 20px 120px 60px 120px;
+}
+
+.contact-content {
+    background-color: var(--contact-bg);
+    text-align: center;
+    /* align-items: center; */
 }
