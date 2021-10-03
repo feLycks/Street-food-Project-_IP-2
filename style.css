@@ -121,7 +121,7 @@ body {
 }
 
 #img-3 {
-    transform: translate(80px, -150px);
+    transform: translate(150px, -150px);
 }
 
 #img-6{
@@ -136,7 +136,7 @@ body {
 }
 
 #img-5 {
-    transform: translate(180px, 20px);
+    transform: translate(200px, 80px);
 }
 
 .green-circle {
@@ -144,7 +144,7 @@ body {
     height: 1100px;
     border-radius: 50%;
     transform: translateY(-1300px);
-    margin-left: 400px;
+    margin-left: 400px; 
     background-color: var(--btn-color);
 }
 
