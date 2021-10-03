@@ -15,21 +15,21 @@
 =======
 >>>>>>> 3272ac9e5feaac1dd5be6223901a109fd05293e6
 
-# Freelancer Website (hire_me)
+# Street Food 
 <hr>
 
 ## Description.
-This project basically is about a job seeker person seeking for job opportunities online.Contact details and workin hours are includd within the content of the site.
+This project is basically a need for support to help fetch pr mobilize foodstuffs for the street persons in the community.
 
 <ol>
     <li>Author: felix Obiero</li> 
-    <li>Date: 26th Sep 2021</li> 
-    <li>DProject name : hire_me Photography website.</li> <br/>
+    <li>Date: 3rd Oct 2021</li> 
+    <li>DProject name : Street food Website</li> <br/>
 
 </ol>
 
 ## Setup & Installations.
-After a client has naviated to the site , he/she is able to make enquires by clicking on the get quote button, this way, the person is prompted to input details and ones done, a notification would be sent back by the contractor. i.e He/she will be called to seek more clarifications about the nature of the job.
+Ones a Person donor, sponsor, well-wisher show interest of the programme, then they are eligible to take part on the outeach and thus share content about the program at length to their circles.
 
 <br/>
 
