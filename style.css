@@ -121,11 +121,11 @@ body {
 }
 
 #img-3 {
-    transform: translate(20px, -80px);
+    transform: translate(80px, -150px);
 }
 
 #img-6{
-    transform: translate(530px, 100px);
+    transform: translate(550px, 80px);
 }
 #img-40 {
     transform: translate(-70px, -50px);
@@ -136,7 +136,7 @@ body {
 }
 
 #img-5 {
-    transform: translate(130px, 20px);
+    transform: translate(180px, 20px);
 }
 
 .green-circle {
