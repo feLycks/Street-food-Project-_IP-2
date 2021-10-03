@@ -23,7 +23,7 @@ This project is basically a need for support to help fetch pr mobilize foodstuff
 
 <ol>
     <li>Author: felix Obiero</li> 
-    <li>Date: 26th Sep 2021</li> 
+    <li>Date: 3rd Oct 2021</li> 
     <li>DProject name : Street food Website</li> <br/>
 
 </ol>
