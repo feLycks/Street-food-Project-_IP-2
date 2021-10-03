@@ -54,8 +54,10 @@ body {
 }
 
 .logo {
+    cursor: pointer;
+    margin-top: -30px;
     display: inline-block;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
 }
 
 
@@ -128,6 +130,7 @@ body {
 }
 #center {
     transform: translate(-210px, 200px);
+    margin-top: 80px;
 }
 
 #img-5 {
@@ -139,7 +142,7 @@ body {
     height: 1100px;
     border-radius: 50%;
     transform: translateY(-1300px);
-    margin-left: 370px;
+    margin-left: 400px;
     background-color: var(--btn-color);
 }
 
