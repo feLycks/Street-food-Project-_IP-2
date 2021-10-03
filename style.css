@@ -22,17 +22,22 @@
 
 body {
     font-family: "Poppins";
+    overflow-x:hidden;
 }
 
 
 .main-header {
-    padding: 60px 120px 0px 120px;
+    padding: 60px 80px 0px 80px;
     background-color: var(--banner-bg);
+    height: 120vh;
 }
 
 .header {
+    z-index: 2;
+    width: 100%;
+    position: relative;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 100px;
 }
 
@@ -45,7 +50,6 @@ body {
     list-style: none;
     padding: 0px 30px;
     color: inherit;
-    /* font-family: var(--font-type); */
     font-size: .85rem;
 }
 
@@ -63,7 +67,7 @@ body {
 }
 
 .descr {
-    width: 400px;
+    width: 400PX;
     height: auto;
 }
 
@@ -98,34 +102,46 @@ body {
     color: var(--main-title-span);
 }
 
+/* CIRCLE CONTANER  */
 .circle-container {
     position: relative;
-    width: 25em;
-    height: 25em;
-    padding: 3em;
-    border-left: dashed 4px;
-    border-top: dashed 4px;
-    border-right: dashed 4px;
-    border-bottom: none;
+    z-index: 2;
+    width: 600px;
+    height: 600px;
+    border-top: 4px dotted var(--eclipe-color);
     border-radius: 50%;
-    margin: 1.75em auto 0;
 }
-.circle-container a {
-    display: block;
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 6em; height: 6em;
-    margin: -6em;
-}
-.circle-container img { display: block; width: 100%; }
-.deg0 { transform: translate(12em); } 
-/* 12em = half the width of the wrapper  */
 
-.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
-.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
-.deg180 { transform: translate(-12em); }
-.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
-.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+#img-1 {
+    transform: translate(-30px, 200px);
+}
+
+#img-3 {
+    transform: translate(10px, -80px);
+}
+
+#img-6{
+    transform: translate(530px, 100px);
+}
+#img-40 {
+    transform: translate(-80px, 30px);
+}
+#center {
+    transform: translate(-210px, 200px);
+}
+
+#img-5 {
+    transform: translate(130px, 20px);
+}
+
+.green-circle {
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    transform: translateY(-1100px);
+    margin-left: 400px;
+    background-color: var(--btn-color);
+}
 
 
 /* EAT TOGETHER  */
